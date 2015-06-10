@@ -1,0 +1,20 @@
+FORMAT: A1
+
+# Config.node
+
+A simple REST service with which to manage host dependend configurations
+
+## Group Configurations
+
+Manage configurations
+
+## List Configurations [/configurations/{hostName}]
+
++ parameters
+    + hostName (string required) - the target computers host name
+
+Get a list of all stored configurations for the given host
+
+### Get all configuration [GET]
+
++ request (application/json)

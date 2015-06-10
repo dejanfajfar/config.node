@@ -4,7 +4,8 @@
   "description": "Rest service for host dependend configuration management",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docu_server": "aglio -i ./docu/config.node.apib -s"
   },
   "repository": {
     "type": "git",
