@@ -19,6 +19,6 @@
   "homepage": "https://github.com/dejanfajfar/config.node#readme",
   "dependencies": {
     "aglio": "^1.18.0",
-    "express": "^4.12.4"
+    "express": "^4.13.3"
   }
 }
