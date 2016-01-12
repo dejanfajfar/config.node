@@ -1,3 +1,3 @@
-/**
- * Created by Dejan on 12/06/15.
- */
+var app = require('./app.js');
+
+var server = app();
